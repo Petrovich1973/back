@@ -1,0 +1,1408 @@
+{
+  "task": [
+    {
+      "taskId": 2,
+      "reportId": "st_op_ac",
+      "taskCreationDate": "2022-06-16T13:02:14.823005",
+      "taskStatus": 3,
+      "schedulingType": 0,
+      "scheduledTime": "2022-06-16T13:02:14.823005",
+      "startExecuting": "2022-06-16T13:06:55.057526",
+      "finishExecuting": "2022-06-16T13:06:55.296036",
+      "lifetimeLimit": 1,
+      "errors": [
+        {
+          "id": 1,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 2,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 3,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 4,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 5,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        }
+      ],
+      "errorsCount": 5,
+      "reportName": "custom_rozn_cod3d_negative_balance.svd_cod13_1655374015059",
+      "author": "Корейко Александр Мокович",
+      "idMega": "13",
+      "filters": [
+        {
+          "attributeName": "OPENDAY",
+          "attributeType": "timestamp",
+          "attributeDescription": "Дата открытия счета / Дата договора об открытии счета",
+          "value1": "1339876800000",
+          "value2": "1654981200000",
+          "operation": "between"
+        }
+      ]
+    },
+    {
+      "taskId": 3,
+      "reportId": "vkl_17",
+      "taskCreationDate": "2022-06-16T13:18:03.780908",
+      "taskStatus": 4,
+      "schedulingType": 0,
+      "scheduledTime": "2022-06-16T13:18:01.780908",
+      "startExecuting": "2022-06-16T13:18:55.149372",
+      "finishExecuting": "2022-06-16T13:19:13.782745",
+      "lifetimeLimit": 1,
+      "errors": [],
+      "errorsCount": 0,
+      "reportName": "custom_rozn_cod3d_negative_balance.svd_cod38_1655374735151",
+      "author": "Давыдова Татьяна Владимировна",
+      "total": 0,
+      "idMega": "38",
+      "filters": [
+        {
+          "attributeName": "OPTRANSDAY",
+          "attributeType": "timestamp",
+          "attributeDescription": "Дата проведения операции",
+          "value1": "1655111160000",
+          "value2": "1655370360000",
+          "operation": "between"
+        },
+        {
+          "attributeName": "BRANCHNO",
+          "attributeType": "decimal(9,0)",
+          "attributeDescription": "ОСБ",
+          "value1": "1004",
+          "operation": "equal"
+        },
+        {
+          "attributeName": "BRANCHNO",
+          "attributeType": "decimal(9,0)",
+          "attributeDescription": "ОСБ",
+          "value1": "1002",
+          "operation": "equal"
+        },
+        {
+          "attributeName": "OFFICE",
+          "attributeType": "decimal(9,0)",
+          "attributeDescription": "Филиал",
+          "value1": "1004",
+          "value2": "45",
+          "operation": "equal"
+        },
+        {
+          "attributeName": "OFFICE",
+          "attributeType": "decimal(9,0)",
+          "attributeDescription": "Филиал",
+          "value1": "3211",
+          "value2": "45",
+          "operation": "equal"
+        }
+      ]
+    },
+    {
+      "taskId": 4,
+      "reportId": "vkl_17",
+      "taskCreationDate": "2022-06-16T13:04:14.823005",
+      "taskStatus": 3,
+      "schedulingType": 0,
+      "scheduledTime": "2022-06-16T13:02:14.823005",
+      "startExecuting": "2022-06-16T13:06:55.057526",
+      "finishExecuting": "2022-06-16T13:06:55.296036",
+      "lifetimeLimit": 1,
+      "errors": [
+        {
+          "id": 1,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 2,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 3,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 4,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 5,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        }
+      ],
+      "errorsCount": 5,
+      "reportName": "custom_rozn_cod3d_negative_balance.svd_cod13_1655374015059",
+      "author": "Давыдова Татьяна Владимировна",
+      "idMega": "29",
+      "filters": [
+        {
+          "attributeName": "OPTRANSDAY",
+          "attributeType": "timestamp",
+          "attributeDescription": "Дата проведения операции",
+          "value1": "1339876800000",
+          "value2": "1654981200000",
+          "operation": "between"
+        }
+      ]
+    },
+    {
+      "taskId": 5,
+      "reportId": "vkl_17",
+      "taskCreationDate": "2022-06-16T13:18:05.780908",
+      "taskStatus": 2,
+      "schedulingType": 0,
+      "scheduledTime": "2022-06-16T13:18:01.780908",
+      "startExecuting": "2022-06-16T13:18:55.149372",
+      "finishExecuting": "2022-06-16T13:19:13.782745",
+      "lifetimeLimit": 1,
+      "errors": [],
+      "errorsCount": 0,
+      "reportName": "custom_rozn_cod3d_negative_balance.svd_cod38_1655374735151",
+      "author": "Корейко Александр Мокович",
+      "total": 0,
+      "idMega": "38",
+      "filters": [
+        {
+          "attributeName": "OPTRANSDAY",
+          "attributeType": "timestamp",
+          "attributeDescription": "Дата проведения операции",
+          "value1": "1655111160000",
+          "value2": "1655370360000",
+          "operation": "between"
+        },
+        {
+          "attributeName": "BRANCHNO",
+          "attributeType": "decimal(9,0)",
+          "attributeDescription": "ОСБ",
+          "value1": "1004",
+          "operation": "equal"
+        }
+      ]
+    },
+    {
+      "taskId": 33,
+      "reportId": "vkl_17",
+      "taskCreationDate": "2022-06-16T13:18:06.780908",
+      "taskStatus": 1,
+      "schedulingType": 0,
+      "scheduledTime": "2022-06-16T13:18:01.780908",
+      "startExecuting": "2022-06-16T13:18:55.149372",
+      "finishExecuting": "2022-06-16T13:19:13.782745",
+      "lifetimeLimit": 1,
+      "errors": [],
+      "errorsCount": 0,
+      "reportName": "custom_rozn_cod3d_negative_balance.svd_cod38_1655374735151",
+      "author": "Корейко Александр Мокович",
+      "total": 0,
+      "idMega": "23",
+      "filters": [
+        {
+          "attributeName": "OPTRANSDAY",
+          "attributeType": "timestamp",
+          "attributeDescription": "Дата проведения операции",
+          "value1": "1655111160000",
+          "value2": "1655370360000",
+          "operation": "between"
+        },
+        {
+          "attributeName": "BRANCHNO",
+          "attributeType": "decimal(9,0)",
+          "attributeDescription": "ОСБ",
+          "value1": "1004",
+          "operation": "equal"
+        }
+      ]
+    },
+    {
+      "taskId": 6,
+      "reportId": "vkl_17",
+      "taskCreationDate": "2022-06-16T13:07:14.823005",
+      "taskStatus": 3,
+      "schedulingType": 0,
+      "scheduledTime": "2022-06-16T13:02:14.823005",
+      "startExecuting": "2022-06-16T13:06:55.057526",
+      "finishExecuting": "2022-06-16T13:06:55.296036",
+      "lifetimeLimit": 1,
+      "errors": [
+        {
+          "id": 1,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 2,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 3,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 4,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 5,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        }
+      ],
+      "errorsCount": 5,
+      "reportName": "custom_rozn_cod3d_negative_balance.svd_cod13_1655374015059",
+      "author": "Корейко Александр Мокович",
+      "idMega": "13",
+      "filters": [
+        {
+          "attributeName": "OPTRANSDAY",
+          "attributeType": "timestamp",
+          "attributeDescription": "Дата проведения операции",
+          "value1": "1339876800000",
+          "value2": "1654981200000",
+          "operation": "between"
+        }
+      ]
+    },
+    {
+      "taskId": 7,
+      "reportId": "vkl_17",
+      "taskCreationDate": "2022-06-16T13:18:01.780908",
+      "taskStatus": 4,
+      "schedulingType": 0,
+      "scheduledTime": "2022-05-16T13:18:08.780908",
+      "startExecuting": "2022-06-16T13:18:55.149372",
+      "finishExecuting": "2022-06-16T13:19:13.782745",
+      "lifetimeLimit": 1,
+      "errors": [],
+      "errorsCount": 0,
+      "reportName": "custom_rozn_cod3d_negative_balance.svd_cod38_1655374735151",
+      "author": "Корейко Александр Мокович",
+      "total": 0,
+      "idMega": "38",
+      "filters": [
+        {
+          "attributeName": "OPTRANSDAY",
+          "attributeType": "timestamp",
+          "attributeDescription": "Дата проведения операции",
+          "value1": "1655111160000",
+          "value2": "1655370360000",
+          "operation": "between"
+        },
+        {
+          "attributeName": "BRANCHNO",
+          "attributeType": "decimal(9,0)",
+          "attributeDescription": "ОСБ",
+          "value1": "1004",
+          "operation": "equal"
+        }
+      ]
+    },
+    {
+      "taskId": 8,
+      "reportId": "vkl_17",
+      "taskCreationDate": "2022-06-16T13:09:14.823005",
+      "taskStatus": 3,
+      "schedulingType": 0,
+      "scheduledTime": "2022-06-16T13:02:14.823005",
+      "startExecuting": "2022-06-16T13:06:55.057526",
+      "finishExecuting": "2022-06-16T13:06:55.296036",
+      "lifetimeLimit": 1,
+      "errors": [
+        {
+          "id": 1,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 2,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 3,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 4,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 5,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        }
+      ],
+      "errorsCount": 5,
+      "reportName": "custom_rozn_cod3d_negative_balance.svd_cod13_1655374015059",
+      "author": "Корейко Александр Мокович",
+      "idMega": "13",
+      "filters": [
+        {
+          "attributeName": "OPTRANSDAY",
+          "attributeType": "timestamp",
+          "attributeDescription": "Дата проведения операции",
+          "value1": "1339876800000",
+          "value2": "1654981200000",
+          "operation": "between"
+        }
+      ]
+    },
+    {
+      "taskId": 9,
+      "reportId": "vkl_17",
+      "taskCreationDate": "2022-06-16T13:10:01.780908",
+      "taskStatus": 4,
+      "schedulingType": 0,
+      "scheduledTime": "2022-06-16T13:18:01.780908",
+      "startExecuting": "2022-06-16T13:18:55.149372",
+      "finishExecuting": "2022-06-16T13:19:13.782745",
+      "lifetimeLimit": 1,
+      "errors": [],
+      "errorsCount": 0,
+      "reportName": "custom_rozn_cod3d_negative_balance.svd_cod38_1655374735151",
+      "author": "Корейко Александр Мокович",
+      "total": 0,
+      "idMega": "38",
+      "filters": [
+        {
+          "attributeName": "OPTRANSDAY",
+          "attributeType": "timestamp",
+          "attributeDescription": "Дата проведения операции",
+          "value1": "1655111160000",
+          "value2": "1655370360000",
+          "operation": "between"
+        },
+        {
+          "attributeName": "BRANCHNO",
+          "attributeType": "decimal(9,0)",
+          "attributeDescription": "ОСБ",
+          "value1": "1004",
+          "operation": "equal"
+        }
+      ]
+    }
+  ],
+  "report": [
+    {
+      "branchno": 704607717,
+      "office": 603481578,
+      "printableno": "гкюйч",
+      "kind": 92144,
+      "subkind": 67364,
+      "name": "иоавс",
+      "surname": "хцф***",
+      "patronymic": "ышгщй",
+      "openday": "1998-09-14T21:03:53.000+00:00",
+      "opencash": 668008596244512871076817744822574425.20,
+      "balance": 201060860824973492084009189995101753.09,
+      "sbookno": "нтякщ",
+      "qdn": "гогфё",
+      "qsname": "эаагы"
+    },
+    {
+      "branchno": 255200041,
+      "office": 662413930,
+      "printableno": "барич",
+      "kind": 51142,
+      "subkind": 81696,
+      "name": "ёюрбк",
+      "surname": "ыъё***",
+      "patronymic": "бфмйц",
+      "openday": "2139-03-08T13:52:58.000+00:00",
+      "opencash": 40637604748076230677871674548109870.70,
+      "balance": 503022414335837082457968030919864639.03,
+      "sbookno": "лсъущ",
+      "qdn": "ыайяу",
+      "qsname": "саёкй"
+    },
+    {
+      "branchno": 638237056,
+      "office": 925966300,
+      "printableno": "мчаъх",
+      "kind": 63234,
+      "subkind": 19919,
+      "name": "ыцтлн",
+      "surname": "уфд***",
+      "patronymic": "взухс",
+      "openday": "2058-12-17T00:25:49.000+00:00",
+      "opencash": 300095124882325936710956699555148925.01,
+      "balance": 605497212418344833593450899046232578.08,
+      "sbookno": "члсъх",
+      "qdn": "гпояц",
+      "qsname": "езошш"
+    },
+    {
+      "branchno": 232328486,
+      "office": 716757790,
+      "printableno": "тлпшщ",
+      "kind": 35166,
+      "subkind": 2179,
+      "name": "фяяцф",
+      "surname": "сыо***",
+      "patronymic": "эивьп",
+      "openday": "2125-05-30T12:44:59.000+00:00",
+      "opencash": 303253913428498853204865913725230444.04,
+      "balance": 920324484183313310844303845057667135.13,
+      "sbookno": "жэфшч",
+      "qdn": "пъокк",
+      "qsname": "ъанхб"
+    },
+    {
+      "branchno": 433229116,
+      "office": 992563133,
+      "printableno": "дтчюь",
+      "kind": 80707,
+      "subkind": 98803,
+      "name": "дэевт",
+      "surname": "ыоь***",
+      "patronymic": "ыхцук",
+      "openday": "1939-02-11T08:36:29.000+00:00",
+      "opencash": 797662309060158642386351227852639590.02,
+      "balance": 278527026235666501342094892311597831.09,
+      "sbookno": "члнря",
+      "qdn": "ьплфо",
+      "qsname": "яъхеы"
+    },
+    {
+      "branchno": 929423090,
+      "office": 220383499,
+      "printableno": "гтьжж",
+      "kind": 43712,
+      "subkind": 93330,
+      "name": "цьхлэ",
+      "surname": "жэщ***",
+      "patronymic": "шышчз",
+      "openday": "2174-09-01T17:12:55.000+00:00",
+      "opencash": 638363948778774944181349248718415485.60,
+      "balance": 973679305687752045527095801284787300.12,
+      "sbookno": "ммцая",
+      "qdn": "жъуёа",
+      "qsname": "йтллп"
+    },
+    {
+      "branchno": 124859363,
+      "office": 303414673,
+      "printableno": "ьъаау",
+      "kind": 83398,
+      "subkind": 17295,
+      "name": "тзчдк",
+      "surname": "аёх***",
+      "patronymic": "впяэы",
+      "openday": "2043-12-01T14:27:02.000+00:00",
+      "opencash": 549977087964794308338444610744370316.00,
+      "balance": 287219669716088401552938334486791669.02,
+      "sbookno": "юнбще",
+      "qdn": "емоцг",
+      "qsname": "чёдыз"
+    },
+    {
+      "branchno": 758438706,
+      "office": 293659965,
+      "printableno": "ыюкъи",
+      "kind": 46345,
+      "subkind": 79547,
+      "name": "гииат",
+      "surname": "ойа***",
+      "patronymic": "прпыю",
+      "openday": "2162-10-13T20:15:13.000+00:00",
+      "opencash": 322117160882797690450407771777410024.56,
+      "balance": 937498836766193283942560236749367184.03,
+      "sbookno": "ывзэю",
+      "qdn": "изссв",
+      "qsname": "еамйъ"
+    },
+    {
+      "branchno": 92681921,
+      "office": 897799841,
+      "printableno": "сулфо",
+      "kind": 58028,
+      "subkind": 17975,
+      "name": "нйъщр",
+      "surname": "лат***",
+      "patronymic": "кяьяж",
+      "openday": "2037-01-16T02:41:35.000+00:00",
+      "opencash": 211404773709475164508951765174762278.05,
+      "balance": 522163210566052460486619802236019206.01,
+      "sbookno": "жзлэй",
+      "qdn": "росчк",
+      "qsname": "ёнбэс"
+    },
+    {
+      "branchno": 669276486,
+      "office": 543007684,
+      "printableno": "ыирэт",
+      "kind": 91852,
+      "subkind": 40090,
+      "name": "аггиш",
+      "surname": "чкв***",
+      "patronymic": "чолкъ",
+      "openday": "1981-03-09T00:05:10.000+00:00",
+      "opencash": 211045184144412844544893830512921921.39,
+      "balance": 853172184840787406834651034612622114.01,
+      "sbookno": "жхщрх",
+      "qdn": "ъсчас",
+      "qsname": "ваёщя"
+    },
+    {
+      "branchno": 546168715,
+      "office": 310086308,
+      "printableno": "бкушя",
+      "kind": 62897,
+      "subkind": 91420,
+      "name": "щпмщъ",
+      "surname": "чьм***",
+      "patronymic": "пхргу",
+      "openday": "2064-11-09T02:05:53.000+00:00",
+      "opencash": 253535959732039930003817163587452931.40,
+      "balance": 635208087754346203540249093288321838.02,
+      "sbookno": "хгавщ",
+      "qdn": "ишртй",
+      "qsname": "неежп"
+    },
+    {
+      "branchno": 427716293,
+      "office": 459398192,
+      "printableno": "еюотл",
+      "kind": 3882,
+      "subkind": 98600,
+      "name": "бйхоз",
+      "surname": "гиш***",
+      "patronymic": "бюэян",
+      "openday": "2191-12-02T00:01:37.000+00:00",
+      "opencash": 897048194541982623193574528524085412.71,
+      "balance": 862728696190077322717771830415306525.10,
+      "sbookno": "тьщех",
+      "qdn": "элэъа",
+      "qsname": "ёстйш"
+    },
+    {
+      "branchno": 799734042,
+      "office": 484812067,
+      "printableno": "фклёя",
+      "kind": 38667,
+      "subkind": 72924,
+      "name": "хюафё",
+      "surname": "цаа***",
+      "patronymic": "эрпят",
+      "openday": "1946-01-28T00:13:25.000+00:00",
+      "opencash": 99741041997456694483134411260015288.02,
+      "balance": 849629147958345305792521253429856687.51,
+      "sbookno": "хъхюы",
+      "qdn": "йсэщф",
+      "qsname": "ймпык"
+    },
+    {
+      "branchno": 297672716,
+      "office": 157955109,
+      "printableno": "жвьнё",
+      "kind": 93658,
+      "subkind": 63418,
+      "name": "йзбир",
+      "surname": "йьк***",
+      "patronymic": "юягхщ",
+      "openday": "2139-01-29T22:05:53.000+00:00",
+      "opencash": 786665425763635780077770846640123585.12,
+      "balance": 628593392558689114879731157331027591.01,
+      "sbookno": "ълрдэ",
+      "qdn": "уюаыя",
+      "qsname": "ъущщш"
+    },
+    {
+      "branchno": 765615282,
+      "office": 48895186,
+      "printableno": "ргжсш",
+      "kind": 62148,
+      "subkind": 92240,
+      "name": "юярёэ",
+      "surname": "игъ***",
+      "patronymic": "ёяуцр",
+      "openday": "1981-04-09T10:47:08.000+00:00",
+      "opencash": 90177324451367273262581090127698707.24,
+      "balance": 366290150563915677930552208646149665.13,
+      "sbookno": "емлуу",
+      "qdn": "омзкз",
+      "qsname": "щщклм"
+    },
+    {
+      "branchno": 796668543,
+      "office": 836591183,
+      "printableno": "чорйм",
+      "kind": 9761,
+      "subkind": 90339,
+      "name": "ныщэв",
+      "surname": "яфм***",
+      "patronymic": "фщщжш",
+      "openday": "1942-01-23T01:35:12.000+00:00",
+      "opencash": 163512065330914561927662817368811848.06,
+      "balance": 963095408119587996870170864207180287.37,
+      "sbookno": "гсщмъ",
+      "qdn": "иукбо",
+      "qsname": "сзлбщ"
+    },
+    {
+      "branchno": 758922519,
+      "office": 620775444,
+      "printableno": "йзъщд",
+      "kind": 8818,
+      "subkind": 40464,
+      "name": "бзьга",
+      "surname": "мжч***",
+      "patronymic": "быодю",
+      "openday": "2135-03-15T06:43:10.000+00:00",
+      "opencash": 531475133269476073637608347191124257.01,
+      "balance": 488395231682801357267512125111062489.02,
+      "sbookno": "иоътч",
+      "qdn": "яморр",
+      "qsname": "чвлэв"
+    },
+    {
+      "branchno": 552851754,
+      "office": 853524823,
+      "printableno": "шэюхп",
+      "kind": 79019,
+      "subkind": 95120,
+      "name": "фтзеь",
+      "surname": "ткд***",
+      "patronymic": "щфэех",
+      "openday": "2068-05-25T22:19:22.000+00:00",
+      "opencash": 38364667069052631344571765443133372.02,
+      "balance": 114737811391625464150484978681906390.20,
+      "sbookno": "жфуьу",
+      "qdn": "могам",
+      "qsname": "фэиял"
+    },
+    {
+      "branchno": 498647776,
+      "office": 682546226,
+      "printableno": "хтбма",
+      "kind": 14408,
+      "subkind": 50419,
+      "name": "чдчшц",
+      "surname": "буа***",
+      "patronymic": "ядцнт",
+      "openday": "2198-11-30T06:12:46.000+00:00",
+      "opencash": 483428532134113667686638910174680575.33,
+      "balance": 82243660489429404760793680836085514.02,
+      "sbookno": "псэцс",
+      "qdn": "уукжы",
+      "qsname": "йягнб"
+    },
+    {
+      "branchno": 907264756,
+      "office": 638058992,
+      "printableno": "щщйтж",
+      "kind": 10470,
+      "subkind": 91191,
+      "name": "гдяыу",
+      "surname": "есй***",
+      "patronymic": "щмддр",
+      "openday": "2018-10-18T08:31:33.000+00:00",
+      "opencash": 488074773237575842860739854479186873.13,
+      "balance": 857110380364210199945305750835777798.36,
+      "sbookno": "ошбэр",
+      "qdn": "носмё",
+      "qsname": "сьяху"
+    }
+  ],
+  "role": [
+    {
+      "id": "EFS_ERMOPS_DEPOSIT_FL_REPORT",
+      "roleName": "Команда «Вклады баланс»",
+      "department": "ЦСКВ"
+    },
+    {
+      "id": "EFS_ERMOPS_DEPOSIT_FL_GZHS_STAFF",
+      "roleName": "Команда «ГЖС",
+      "department": "ЦСКВ"
+    }
+  ],
+  "reportScheme": [
+    {
+      "id": "st_cl_ac",
+      "title": "Ведомость закрытых счетов",
+      "description": "Здесь должна быть какая-то полезная информация, но пока ее нет",
+      "roles": [
+        {
+          "id": "EFS_ERMOPS_DEPOSIT_FL_REPORT",
+          "roleName": "Команда «Вклады баланс»",
+          "department": "ЦСКВ"
+        },
+        {
+          "id": "EFS_ERMOPS_DEPOSIT_FL_GZHS_STAFF",
+          "roleName": "Команда «ГЖС»",
+          "department": "ЦСКВ"
+        }
+      ]
+    },
+    {
+      "id": "vkl_17",
+      "title": "ВКЛ-17 Счета с отрицательным остатком",
+      "description": "Здесь должна быть какая-то полезная информация, но пока ее нет",
+      "roles": [
+        {
+          "id": "EFS_ERMOPS_DEPOSIT_FL_REPORT",
+          "roleName": "Команда «Вклады баланс»",
+          "department": "ЦСКВ"
+        }
+      ]
+    },
+    {
+      "id": "vkl_20",
+      "title": "ВКЛ-20  Отчет по операциям сторнирования открытия",
+      "description": "Здесь должна быть какая-то полезная информация, но пока ее нет",
+      "roles": [
+        {
+          "id": "EFS_ERMOPS_DEPOSIT_FL_REPORT",
+          "roleName": "Команда «Вклады баланс»",
+          "department": "ЦСКВ"
+        }
+      ]
+    },
+    {
+      "id": "vkl_29",
+      "title": "ВКЛ-29 Закрытые счета с ненулевым остатком",
+      "description": "Здесь должна быть какая-то полезная информация, но пока ее нет",
+      "roles": [
+        {
+          "id": "EFS_ERMOPS_DEPOSIT_FL_REPORT",
+          "roleName": "Команда «Вклады баланс»",
+          "department": "ЦСКВ"
+        }
+      ]
+    },
+    {
+      "id": "st_op_ac",
+      "title": "Ведомость открытых счетов",
+      "description": "Здесь должна быть какая-то полезная информация, но пока ее нет",
+      "roles": [
+        {
+          "id": "EFS_ERMOPS_DEPOSIT_FL_REPORT",
+          "roleName": "Команда «Вклады баланс»",
+          "department": "ЦСКВ"
+        },
+        {
+          "id": "EFS_ERMOPS_DEPOSIT_FL_GZHS_STAFF",
+          "roleName": "Команда «ГЖС»",
+          "department": "ЦСКВ"
+        }
+      ]
+    }
+  ],
+  "reportSchemeId": {
+    "vkl_17": [
+      {
+        "attributeName": "BRANCHNO",
+        "attributeDescription": "ОСБ",
+        "attributeType": "decimal(9,0)",
+        "reportId": "vkl_17",
+        "visualType": null,
+        "filterOperation": "equal",
+        "visible": true
+      },
+      {
+        "attributeName": "OFFICE",
+        "attributeDescription": "Филиал",
+        "attributeType": "decimal(9,0)",
+        "reportId": "vkl_17",
+        "visualType": null,
+        "filterOperation": "equal",
+        "visible": true
+      },
+      {
+        "attributeName": "KIND",
+        "attributeDescription": "Вид",
+        "attributeType": "decimal(5,0)",
+        "reportId": "vkl_17",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "SUBKIND",
+        "attributeDescription": "Подвид",
+        "attributeType": "decimal(5,0)",
+        "reportId": "vkl_17",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "OPENCASH",
+        "attributeDescription": "Сумма первоначального взноса",
+        "attributeType": "decimal(38,2)",
+        "reportId": "vkl_17",
+        "visualType": "decimal|2",
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "BALANCE",
+        "attributeDescription": "Остаток на счете",
+        "attributeType": "decimal(38,2)",
+        "reportId": "vkl_17",
+        "visualType": "decimal|2",
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "SBOOKNO",
+        "attributeDescription": "Номер сберкнижки",
+        "attributeType": "string",
+        "reportId": "vkl_17",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "PRINTABLENO",
+        "attributeDescription": "Номер счета",
+        "attributeType": "string",
+        "reportId": "vkl_17",
+        "visualType": "printableno|5-3-1-4-7",
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "QDN",
+        "attributeDescription": "Вид счета",
+        "attributeType": "string",
+        "reportId": "vkl_17",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "QSNAME",
+        "attributeDescription": "Подвид счета",
+        "attributeType": "string",
+        "reportId": "vkl_17",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "OPENDAY",
+        "attributeDescription": "Дата открытия счета",
+        "attributeType": "timestamp",
+        "reportId": "vkl_17",
+        "visualType": "timestamp|DD.MM.YYYY",
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "NAME",
+        "attributeDescription": "Имя",
+        "attributeType": "string",
+        "reportId": "vkl_17",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "SURNAME",
+        "attributeDescription": "Фамилия",
+        "attributeType": "string",
+        "reportId": "vkl_17",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "PATRONYMIC",
+        "attributeDescription": "Отчество",
+        "attributeType": "string",
+        "reportId": "vkl_17",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "OPTRANSDAY",
+        "attributeDescription": "Дата проведения операции",
+        "attributeType": "timestamp",
+        "reportId": "vkl_17",
+        "visualType": null,
+        "filterOperation": "between",
+        "visible": false
+      }
+    ],
+    "vkl_20": [
+      {
+        "attributeName": "BRANCHNO",
+        "attributeDescription": "ОСБ",
+        "attributeType": "decimal(9,0)",
+        "reportId": "vkl_20",
+        "visualType": null,
+        "filterOperation": "equal",
+        "visible": true
+      },
+      {
+        "attributeName": "OFFICE",
+        "attributeDescription": "Филиал",
+        "attributeType": "decimal(9,0)",
+        "reportId": "vkl_20",
+        "visualType": null,
+        "filterOperation": "equal",
+        "visible": true
+      },
+      {
+        "attributeName": "KIND",
+        "attributeDescription": "Вид",
+        "attributeType": "decimal(5,0)",
+        "reportId": "vkl_20",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "SUBKIND",
+        "attributeDescription": "Подвид",
+        "attributeType": "decimal(5,0)",
+        "reportId": "vkl_20",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "OPENCASH",
+        "attributeDescription": "Сумма первоначального взноса",
+        "attributeType": "decimal(38,2)",
+        "reportId": "vkl_20",
+        "visualType": "decimal|2",
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "BALANCE",
+        "attributeDescription": "Остаток на счете",
+        "attributeType": "decimal(38,2)",
+        "reportId": "vkl_20",
+        "visualType": "decimal|2",
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "SBOOKNO",
+        "attributeDescription": "Номер сберкнижки",
+        "attributeType": "string",
+        "reportId": "vkl_20",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "PRINTABLENO",
+        "attributeDescription": "Номер счета",
+        "attributeType": "string",
+        "reportId": "vkl_20",
+        "visualType": "printableno|5-3-1-4-7",
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "QDN",
+        "attributeDescription": "Вид счета",
+        "attributeType": "string",
+        "reportId": "vkl_20",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "QSNAME",
+        "attributeDescription": "Подвид счета",
+        "attributeType": "string",
+        "reportId": "vkl_20",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "OPENDAY",
+        "attributeDescription": "Дата открытия счета",
+        "attributeType": "timestamp",
+        "reportId": "vkl_20",
+        "visualType": "timestamp|DD.MM.YYYY",
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "NAME",
+        "attributeDescription": "Имя",
+        "attributeType": "string",
+        "reportId": "vkl_20",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "SURNAME",
+        "attributeDescription": "Фамилия",
+        "attributeType": "string",
+        "reportId": "vkl_20",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "PATRONYMIC",
+        "attributeDescription": "Отчество",
+        "attributeType": "string",
+        "reportId": "vkl_20",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      }
+    ],
+    "vkl_29": [
+      {
+        "attributeName": "BRANCHNO",
+        "attributeDescription": "ОСБ",
+        "attributeType": "decimal(9,0)",
+        "reportId": "vkl_29",
+        "visualType": null,
+        "filterOperation": "equal",
+        "visible": true
+      },
+      {
+        "attributeName": "OFFICE",
+        "attributeDescription": "Филиал",
+        "attributeType": "decimal(9,0)",
+        "reportId": "vkl_29",
+        "visualType": null,
+        "filterOperation": "equal",
+        "visible": true
+      },
+      {
+        "attributeName": "KIND",
+        "attributeDescription": "Вид",
+        "attributeType": "decimal(5,0)",
+        "reportId": "vkl_29",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "SUBKIND",
+        "attributeDescription": "Подвид",
+        "attributeType": "decimal(5,0)",
+        "reportId": "vkl_29",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "OPENCASH",
+        "attributeDescription": "Сумма первоначального взноса",
+        "attributeType": "decimal(38,2)",
+        "reportId": "vkl_29",
+        "visualType": "decimal|2",
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "BALANCE",
+        "attributeDescription": "Остаток на счете",
+        "attributeType": "decimal(38,2)",
+        "reportId": "vkl_29",
+        "visualType": "decimal|2",
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "SBOOKNO",
+        "attributeDescription": "Номер сберкнижки",
+        "attributeType": "string",
+        "reportId": "vkl_29",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "PRINTABLENO",
+        "attributeDescription": "Номер счета",
+        "attributeType": "string",
+        "reportId": "vkl_29",
+        "visualType": "printableno|5-3-1-4-7",
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "QDN",
+        "attributeDescription": "Вид счета",
+        "attributeType": "string",
+        "reportId": "vkl_29",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "QSNAME",
+        "attributeDescription": "Подвид счета",
+        "attributeType": "string",
+        "reportId": "vkl_29",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "OPENDAY",
+        "attributeDescription": "Дата открытия счета",
+        "attributeType": "timestamp",
+        "reportId": "vkl_29",
+        "visualType": "timestamp|DD.MM.YYYY",
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "NAME",
+        "attributeDescription": "Имя",
+        "attributeType": "string",
+        "reportId": "vkl_29",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "SURNAME",
+        "attributeDescription": "Фамилия",
+        "attributeType": "string",
+        "reportId": "vkl_29",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "PATRONYMIC",
+        "attributeDescription": "Отчество",
+        "attributeType": "string",
+        "reportId": "vkl_29",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "OPTRANSDAY",
+        "attributeDescription": "Дата проведения операции",
+        "attributeType": "timestamp",
+        "reportId": "vkl_29",
+        "visualType": null,
+        "filterOperation": "between",
+        "visible": false
+      }
+    ],
+    "st_op_ac": [
+      {
+        "attributeName": "OPENDAY",
+        "attributeDescription": "Дата открытия счета / Дата договора об открытии счета",
+        "attributeType": "timestamp",
+        "reportId": "st_op_ac",
+        "visualType": "timestamp|DD.MM.YYYY",
+        "filterOperation": "between",
+        "visible": true
+      },
+      {
+        "attributeName": "CONTRACT",
+        "attributeDescription": "Номер договора об открытии счета",
+        "attributeType": "string",
+        "reportId": "st_op_ac",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "QDN",
+        "attributeDescription": "Вид счета либо наименование (цель) счета",
+        "attributeType": "string",
+        "reportId": "st_op_ac",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "PRINTABLENO",
+        "attributeDescription": "Номер лицевого счета",
+        "attributeType": "string",
+        "reportId": "st_op_ac",
+        "visualType": "printableno|5-3-1-4-7",
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "CLOSE_DAY",
+        "attributeDescription": "Дата закрытия счета",
+        "attributeType": "timestamp",
+        "reportId": "st_op_ac",
+        "visualType": "timestamp|DD.MM.YYYY",
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "NAME",
+        "attributeDescription": "Имя",
+        "attributeType": "string",
+        "reportId": "st_op_ac",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "SURNAME",
+        "attributeDescription": "Фамилия",
+        "attributeType": "string",
+        "reportId": "st_op_ac",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "PATRONYMIC",
+        "attributeDescription": "Отчество",
+        "attributeType": "string",
+        "reportId": "st_op_ac",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "BRANCHNO",
+        "attributeDescription": "ОСБ",
+        "attributeType": "decimal(9,0)",
+        "reportId": "st_op_ac",
+        "visualType": null,
+        "filterOperation": "equal",
+        "visible": false
+      }
+    ],
+    "st_cl_ac": [
+      {
+        "attributeName": "OPENDAY",
+        "attributeDescription": "Дата открытия счета / Дата договора об открытии счета",
+        "attributeType": "timestamp",
+        "reportId": "st_cl_ac",
+        "visualType": "timestamp|DD.MM.YYYY",
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "CONTRACT",
+        "attributeDescription": "Номер договора об открытии счета",
+        "attributeType": "string",
+        "reportId": "st_cl_ac",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "QDN",
+        "attributeDescription": "Вид счета либо наименование (цель) счета",
+        "attributeType": "string",
+        "reportId": "st_cl_ac",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "PRINTABLENO",
+        "attributeDescription": "Номер лицевого счета",
+        "attributeType": "string",
+        "reportId": "st_cl_ac",
+        "visualType": "printableno|5-3-1-4-7",
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "CLOSE_DAY",
+        "attributeDescription": "Дата закрытия счета",
+        "attributeType": "timestamp",
+        "reportId": "st_cl_ac",
+        "visualType": "timestamp|DD.MM.YYYY",
+        "filterOperation": "between",
+        "visible": true
+      },
+      {
+        "attributeName": "NAME",
+        "attributeDescription": "Имя",
+        "attributeType": "string",
+        "reportId": "st_cl_ac",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "SURNAME",
+        "attributeDescription": "Фамилия",
+        "attributeType": "string",
+        "reportId": "st_cl_ac",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "PATRONYMIC",
+        "attributeDescription": "Отчество",
+        "attributeType": "string",
+        "reportId": "st_cl_ac",
+        "visualType": null,
+        "filterOperation": null,
+        "visible": true
+      },
+      {
+        "attributeName": "BRANCHNO",
+        "attributeDescription": "ОСБ",
+        "attributeType": "decimal(9,0)",
+        "reportId": "st_cl_ac",
+        "visualType": null,
+        "filterOperation": "equal",
+        "visible": false
+      },
+      {
+        "attributeName": "QDN",
+        "attributeDescription": "Вид счета",
+        "attributeType": "string",
+        "reportId": "st_cl_ac",
+        "visualType": null,
+        "filterOperation": "equal",
+        "visible": false
+      },
+      {
+        "attributeName": "QSNAME",
+        "attributeDescription": "Подвид счета",
+        "attributeType": "string",
+        "reportId": "st_cl_ac",
+        "visualType": null,
+        "filterOperation": "equal",
+        "visible": false
+      },
+      {
+        "attributeName": "ACCOUNT",
+        "attributeDescription": "Балансовый счет",
+        "attributeType": "decimal(9,0)",
+        "reportId": "st_cl_ac",
+        "visualType": null,
+        "filterOperation": "equal",
+        "visible": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+[
+    {
+      "taskId": 2,
+      "reportId": "vkl_17",
+      "taskCreationDate": "2022-06-16T13:02:14.823005",
+      "taskStatus": 3,
+      "schedulingType": 0,
+      "scheduledTime": "2022-06-16T13:02:14.823005",
+      "startExecuting": "2022-06-16T13:06:55.057526",
+      "finishExecuting": "2022-06-16T13:06:55.296036",
+      "lifetimeLimit": 1,
+      "errors": [
+        {
+          "id": 1,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 2,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 3,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 4,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        },
+        {
+          "id": 5,
+          "code": "500051",
+          "message": "java.sql.SQLException: [Cloudera][HiveJDBCDriver](500051) ERROR processing query/statement. Error Code: 40000, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Error while compiling statement: FAILED"
+        }
+      ],
+      "errorsCount": 5,
+      "reportName": "custom_rozn_cod3d_negative_balance.svd_cod13_1655374015059",
+      "author": "Корейко Александр Мокович",
+      "idMega": "13",
+      "filters": [
+        {
+          "attributeName": "OPTRANSDAY",
+          "attributeType": "timestamp",
+          "attributeDescription": "Дата проведения операции",
+          "value1": "1339876800000",
+          "value2": "1654981200000",
+          "operation": "between"
+        }
+      ]
+    },
+    {
+      "taskId": 3,
+      "reportId": "vkl_17",
+      "taskCreationDate": "2022-06-16T13:18:01.780908",
+      "taskStatus": 4,
+      "schedulingType": 0,
+      "scheduledTime": "2022-06-16T13:18:01.780908",
+      "startExecuting": "2022-06-16T13:18:55.149372",
+      "finishExecuting": "2022-06-16T13:19:13.782745",
+      "lifetimeLimit": 1,
+      "errors": [],
+      "errorsCount": 0,
+      "reportName": "custom_rozn_cod3d_negative_balance.svd_cod38_1655374735151",
+      "author": "Корейко Александр Мокович",
+      "total": 0,
+      "idMega": "38",
+      "filters": [
+        {
+          "attributeName": "OPTRANSDAY",
+          "attributeType": "timestamp",
+          "attributeDescription": "Дата проведения операции",
+          "value1": "1655111160000",
+          "value2": "1655370360000",
+          "operation": "between"
+        },
+        {
+          "attributeName": "BRANCHNO",
+          "attributeType": "decimal(9,0)",
+          "attributeDescription": "ОСБ",
+          "value1": "1004",
+          "operation": "equal"
+        }
+      ]
+    }
+  ]
